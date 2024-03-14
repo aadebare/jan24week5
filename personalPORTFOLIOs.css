@@ -1,0 +1,172 @@
+body{
+    width: 80%;
+    padding: 2%;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 10px 10px;
+    
+    
+    
+}
+main section{
+    border: 5px solid whitesmoke ;
+    
+}
+
+section:first-of-type{
+    grid-area: 2/1/3/4;
+}
+section:nth-of-type(2){
+    grid-area: 3/1/5/2;
+}
+section:nth-of-type(3){
+    grid-area: 3/2/5/3;
+}
+section:nth-of-type(4){
+    grid-area: 3/3/4/4;
+}
+section:last-of-type{
+    grid-area: 4/3/5/4;
+}
+nav{
+    display: flex;
+    position: fixed;
+    list-style-type: none;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 200px;
+    inset-block-start: -20px;
+    
+    
+
+    
+}
+nav>a:hover{
+    background-color: white;
+}
+nav>.abm{
+    
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    
+    
+}
+nav>.aac{
+    
+    text-decoration: none;
+    font-weight:bolder ;
+    font-size: x-large
+}
+nav>.sk{
+   
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    
+    
+}
+nav>.fm{
+    
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+.header{
+   
+    text-align: center;
+    width: 100%;
+    background-color: #6F6F6F;
+}
+.first{
+    
+    width: 12em;
+    padding: 1em;
+    font-size: larger;
+    text-align: center;
+    background-color: #919191;
+    
+
+    
+}
+.second{
+    
+    width: 45em;
+    padding: 3em;
+    font-size: larger;
+    text-align: center;
+    background-color: #B3B3B3;
+}
+.second a:hover{
+    background-color: white;
+}
+.second a{
+    text-decoration: none;
+    
+}
+.third{
+    
+    width: 15em;
+    padding: 3em;
+    font-size: larger;
+    text-align: center;
+}
+.third a{
+    text-decoration: none;
+    
+    
+}
+.third abbr{
+    text-decoration: none;
+}
+.third a:hover{
+    background-color: white;
+}
+img[src$='jpg1']{
+    height: 300px;
+    width: 300px;
+    margin-left: -30%;
+}
+img[src$='jpg2']{
+    height: 300px;
+    width: 300px;
+    margin-left: -30%;
+}
+.fourth{
+    
+    width: 15em;
+    padding: 4em;
+    text-align: center;
+    
+    background-color: #D4D4D4;
+}
+.fourth form {
+width: 40%;
+}
+.fourth input{
+    border-radius: 20%;
+    padding: 1%;
+    text-align: right;
+    margin: .5em;
+}
+.fourth label{
+  text-align: left; 
+  padding: 1%; 
+}
+img[src$='jpg']{
+    height: 400px;
+}
+img[src$='png']{
+    height: 400px;
+}
+form label:first-of-type{
+    text-align: left;
+}
+
+
